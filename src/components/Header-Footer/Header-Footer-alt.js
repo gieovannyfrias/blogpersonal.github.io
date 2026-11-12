@@ -287,11 +287,11 @@ body {
         <div class="footer-links">
             <h4>Navegación</h4>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#ideas">Ideas</a></li>
-                <li><a href="#vivencias">Vivencias</a></li>
-                <li><a href="#reflexiones">Reflexiones</a></li>
-                <li><a href="#opiniones">Opiniones</a></li>
+                <li><a href="/index#inicio">Inicio</a></li>
+                <li><a href="/index#ideas">Ideas</a></li>
+                <li><a href="/index#vivencias">Vivencias</a></li>
+                <li><a href="/index#reflexiones">Reflexiones</a></li>
+                <li><a href="/index#opiniones">Opiniones</a></li>
 
             </ul>
         </div>
