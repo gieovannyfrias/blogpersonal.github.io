@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+      <link rel="icon" href="https://blogpersonal.gieovannyfrias.com/Imagenes/Logo.webp" type="image/x-icon">
+    <title>Conexión interrumpida - Blog digital</title>
+    <meta name="description" content="Enlace temporalmente interrumpido.">
+      <!-- Control de Indexación y Canónicas -->
+    <link rel="canonical" href="https://blogpersonal.gieovannyfrias.com">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+      <!-- Integración con Teléfonos Inteligentes (UI/UX) -->
+    <meta name="theme-color" content="#1a1a1a"> <!-- Reemplaza con el color principal de tu web -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+<!-- Seguridad de Privacidad (No envía datos de origen a enlaces externos) -->
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<!-- Pistas de Rendimiento para Redes Móviles (Client Hints) -->
+<meta http-equiv="Accept-CH" content="DPR, Width, Viewport-Width, Save-Data, ECT">
+
+<!-- Si el artículo tiene traducciones (SEO Internacional) -->
+<link rel="alternate" hreflang="en" href="https://blogpersonal.gieovannyfrias.com">
+<link rel="alternate" hreflang="x-default" href="https://blogpersonal.gieovannyfrias.com">
+
+<!-- Control de Caché (Para noticias de última hora con actualizaciones frecuentes) -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+    <!-- Open Graph / Metadatos para Redes Sociales (Facebook, WhatsApp) -->
+    <meta property="og:type" content="WebSite">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:site_name" content="offline">
+    <meta property="og:title" content="Conexión interrumpida - Blog digital">
+    <meta property="og:description" content="Enlace temporalmente interrumpido.">
+    <meta property="og:url" content="https://blogpersonal.gieovannyfrias.com/offline">
+    <meta property="og:image" content="https://blogpersonal.gieovannyfrias.com/Imagenes/Logo.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Conexión interrumpida - Blog digital">
+
+    <!-- Tarjetas Exclusivas para Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@offline">
+    <meta name="twitter:title" content="Conexión interrumpida - Blog digital">
+    <meta name="twitter:description" content="Enlace temporalmente interrumpido.">
+    <meta name="twitter:image" content="https://blogpersonal.gieovannyfrias.com/Imagenes/Logo.webp">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GELS4CRW3W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GELS4CRW3W');
+</script>
+  </head>
+<body>
+
+
+
+  <main class="main-container">
+    <!-- Columna Izquierda: Mensaje Editorial -->
+    <section>
+      <span class="eyebrow">Aviso de Conectividad • Código 503</span>
+      <h1>Enlace temporalmente interrumpido.</h1>
+      <p class="lead-text">
+        Su terminal no dispone de acceso a la red en este momento. El sistema monitorea continuamente la señal y restablecerá su sesión de lectura de forma automática en cuanto vuelva la conexión.
+      </p>
+      <div class="actions-group">
+        <button class="btn-gold" onclick="manualRetry()" id="retry-btn">Reintentar Enlace</button>
+        <button class="btn-outline" onclick="history.back()">Volver Atrás</button>
+      </div>
+    </section>
+
+    <!-- Columna Derecha: Panel de Estado y Memoria Local -->
+    <aside class="executive-panel">
+      <div class="panel-header">
+        <span>Diagnóstico de Terminal</span>
+        <span id="clock">--:--</span>
+      </div>
+      <ul class="diagnostic-list">
+        <li>
+          <span>Estado de Red</span>
+          <span id="diag-status" style="color: #fca5a5;">Desconectado</span>
+        </li>
+        <li>
+          <span>Protocolo Local</span>
+          <span>Caché PWA Activo</span>
+        </li>
+        <li>
+          <span>Artículos Guardados</span>
+          <span id="cached-count">0 publicaciones</span>
+        </li>
+      </ul>
+      <div class="cached-box">
+        <h4>Sincronización Automática</h4>
+        <p>No es necesario cerrar esta ventana. En cuanto recupere señal Wi-Fi o datos móviles, el portal cargará la última edición publicada.</p>
+      </div>
+    </aside>
+  </main>
+
+ 
+
+  <style>
+:root {
+    /* Mapeo del Modo Oscuro con tus nombres de alta fidelidad */
+    --bg-main: #050608;          /* Negro absoluto satinado */
+    --bg-surface: #0b0c10;       /* Gris asfalto profundo (antes --bg-primary) */
+    --bg-secondary: #12141c;     /* Fondo secundario de tarjetas */
+    --border-color: #141722;     /* Bordes sutiles de alta fidelidad */
+    
+    --text-primary: #f5f6f9;     /* Blanco marfil de alta legibilidad */
+    --text-secondary: #94a3b8;   /* Gris pizarra para textos secundarios */
+    --accent-gold: #d4af37;      /* Oro satinado para detalles de lujo */
+    --accent-gold-hover: #f3e5ab;/* Oro claro para interacciones */
+    
+    /* Tipografía y Estructura constantes */
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --transition-smooth: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    --shadow-premium: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Colores cuando se activa el Modo Claro (Mismos nombres, valores invertidos) */
+[data-theme="light"] {
+    --bg-main: #f8f9fa;          /* Blanco suave de fondo general */
+    --bg-surface: #ffffff;       /* Blanco puro para contraste de tarjetas */
+    --bg-secondary: #f1f3f5;     /* Gris muy claro para elementos secundarios */
+    --border-color: #e9ecef;     /* Bordes claros de alta fidelidad */
+    
+    --text-primary: #1a1a1a;     /* Negro asfalto para alta legibilidad */
+    --text-secondary: #6c757d;   /* Gris medio para textos secundarios */
+    --accent-gold: #aa8f66;      /* Oro viejo con más contraste para fondos claros */
+    --accent-gold-hover: #8c734b;/* Oro oscuro para interacciones en modo claro */
+    
+    --shadow-premium: 0 20px 40px rgba(0, 0, 0, 0.05); /* Sombra ultra suave */
+}
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-main) !important;
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      -webkit-font-smoothing: antialiased;
+      zoom:75%;
+    }
+
+
+    /* =========================================
+       CONTENEDOR EDITORIAL ASIMÉTRICO
+       ========================================= */
+    .main-container {
+      max-width: 1080px;
+      width: 100%;
+      margin: auto;
+      padding: 3rem 6%;
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .eyebrow {
+      color: var(--gold-primary);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    h1 {
+      font-family: var(--font-serif);
+      font-size: 2.75rem;
+      font-weight: 400;
+      line-height: 1.18;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.25rem;
+      color: red;
+    }
+
+    .lead-text {
+      color: var(--text-secondary);
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 2.25rem;
+      max-width: 500px;
+    }
+
+    .actions-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    .btn-gold {
+      background-color: var(--gold-primary);
+      color: red;
+      border: 1px solid var(--gold-primary);
+      padding: 0.85rem 1.85rem;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .btn-gold:hover {
+      background-color: var(--gold-hover);
+      transform: translateY(-1px);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text-primary);
+      border: 1px solid var(--border-hairline);
+      padding: 0.85rem 1.5rem;
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .btn-outline:hover {
+      border-color: var(--gold-primary);
+      color: var(--gold-primary);
+    }
+
+    /* =========================================
+       PANEL DERECHO: TELEMETRÍA Y LECTURA LOCAL
+       ========================================= */
+    .executive-panel {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-hairline);
+      border-left: 2px solid var(--gold-primary);
+      padding: 2.25rem;
+    }
+
+    .panel-header {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--text-muted);
+      padding-bottom: 1rem;
+      margin-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border-hairline);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .diagnostic-list {
+      list-style: none;
+      margin-bottom: 1.75rem;
+    }
+
+    .diagnostic-list li {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.65rem 0;
+      border-bottom: 1px solid var(--border-hairline);
+      font-size: 0.85rem;
+    }
+
+    .diagnostic-list li span:first-child {
+      color: var(--text-secondary);
+    }
+
+    .diagnostic-list li span:last-child {
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .cached-box {
+      background: var(--bg-elevated);
+      padding: 1.15rem;
+      border: 1px solid var(--border-gold);
+    }
+
+    .cached-box h4 {
+      font-family: var(--font-serif);
+      font-size: 0.95rem;
+      font-weight: 400;
+      color: var(--gold-primary);
+      margin-bottom: 0.35rem;
+    }
+
+    .cached-box p {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+
+    @media (max-width: 860px) {
+      .main-container {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        padding: 2.5rem 6%;
+      }
+      h1 { font-size: 2.1rem; }
+    }
+  </style>
+  <script src="src/components/Header-Footer/Header-Footer-alt.js" defer></script>
+  <script>
+    // Reloj ejecutivo en tiempo real
+    function updateClock() {
+      const now = new Date();
+      document.getElementById('clock').textContent = now.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+    }
+    updateClock();
+    setInterval(updateClock, 10000);
+
+    // Detectar si hay artículos guardados en localStorage del blog principal
+     try {
+      const savedPosts = JSON.parse(localStorage.getItem('corp_blog_posts'));
+      if (Array.isArray(savedPosts) && savedPosts.length > 0) {
+        document.getElementById('cached-count').textContent = `${savedPosts.length} publicaciones locales`;
+      }
+    } catch (e) {}
+
+    // Botón de reintento con feedback visual
+    function manualRetry() {
+      const btn = document.getElementById('retry-btn');
+      btn.textContent = 'Verificando...';
+      setTimeout(() => {
+        if (navigator.onLine) {
+          window.location.reload();
+        } else {
+          btn.textContent = 'Sin Señal • Reintentar';
+        }
+      }, 600);
+    }
+
+    // Monitoreo automático de red
+    function handleNetworkChange() {
+      const pill = document.getElementById('network-pill');
+      const label = document.getElementById('network-label');
+      const diag = document.getElementById('diag-status');
+
+      if (navigator.onLine) {
+        pill.classList.add('online');
+        label.textContent = 'Enlace Restablecido';
+        diag.textContent = 'En Línea';
+        diag.style.color = '#6ee7b7';
+        setTimeout(() => window.location.reload(), 1100);
+      } else {
+        pill.classList.remove('online');
+        label.textContent = 'Sin Red Activa';
+        diag.textContent = 'Desconectado';
+        diag.style.color = '#fca5a5';
+      }
+    }
+
+    window.addEventListener('online', handleNetworkChange);
+    window.addEventListener('offline', handleNetworkChange);
+  </script>
+</body>
+</html>
+
